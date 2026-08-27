@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aishdot Poultry Farm | Fresh Eggs & Poultry Services</title>
+    <meta name="description" content="Aishdot Poultry Farm provides fresh eggs, live and frozen chicken, and reliable agricultural services in Lafia, Nasarawa State.">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800 antialiased bg-gray-50 pt-20">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-50 top-0">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-3">
+                <!-- Brand / Logo -->
+                <a href="#home" class="flex items-center">
+                    <img src="file_0000000057c881f48728e6d2594c0277.png" alt="Aishdot Poultry Farm Logo" class="h-12 md:h-16 w-auto object-contain">
+                </a>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-6 items-center">
+                    <a href="#home" class="font-medium text-gray-600 hover:text-green-700 transition">Home</a>
+                    <a href="#about" class="font-medium text-gray-600 hover:text-green-700 transition">About</a>
+                    <a href="#services" class="font-medium text-gray-600 hover:text-green-700 transition">Services</a>
+                    <a href="#contact" class="bg-green-700 text-white px-5 py-2 rounded-lg font-medium hover:bg-green-800 transition">Contact Us</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-green-700 focus:outline-none">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Menu Dropdown (Hidden by default) -->
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <div class="flex flex-col space-y-3 mt-2">
+                    <a href="#home" class="block text-gray-600 hover:text-green-700 font-medium">Home</a>
+                    <a href="#about" class="block text-gray-600 hover:text-green-700 font-medium">About</a>
+                    <a href="#services" class="block text-gray-600 hover:text-green-700 font-medium">Services</a>
+                    <a href="#contact" class="block text-green-700 font-bold">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-20 pb-20 bg-green-50">
+        <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+            <div class="text-center md:text-left">
+                <h1 class="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">
+                    Fresh Eggs.<br>Quality Poultry.<br>
+                    <span class="text-green-700">Reliable Services.</span>
+                </h1>
+                <p class="text-lg text-gray-600 mb-10 max-w-lg mx-auto md:mx-0">
+                    Supplying Lafia and surrounding communities with premium, locally produced poultry products. From farm to table, we prioritize quality, health, and reliability.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#contact" class="bg-green-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-800 transition shadow-lg text-center">Contact Us</a>
+                    <a href="#services" class="bg-white text-green-700 border border-green-700 px-8 py-3 rounded-lg font-semibold hover:bg-green-50 transition shadow-lg text-center">Our Products</a>
+                </div>
+            </div>
+            <!-- Hero Image Placeholder -->
+            <div class="hidden md:block">
+                <img src="https://via.placeholder.com/600x400?text=Farm+Hero+Image" alt="Aishdot Poultry Farm" class="rounded-2xl shadow-xl w-full object-cover h-96">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">About Aishdot Poultry Farm</h2>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                    Located in the heart of Lafia, Nasarawa State, Aishdot Poultry Farm is a registered agricultural enterprise (BN 9750129) led by Aishat Shuaibu Dodo. We specialize in commercial egg production using carefully managed point-of-laying birds, alongside a range of general contracting and agricultural services.
+                </p>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                    <strong>Our Mission:</strong> To provide customers with fresh, high-quality, and reliable poultry products while actively supporting the local food supply and driving economic activity in our community.
+                </p>
+                
+                <div class="mt-8">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Our Production Process</h3>
+                    <ol class="space-y-2 text-gray-600 text-sm list-decimal list-inside">
+                        <li>Sourcing premium point-of-laying birds</li>
+                        <li>Strict biosecurity and health management</li>
+                        <li>Quality feeding and daily care</li>
+                        <li>Careful egg collection and sorting</li>
+                        <li>Secure packaging & reliable delivery</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="space-y-6">
+                <!-- About Image Placeholder -->
+                <img src="https://via.placeholder.com/600x300?text=Farm+Operations" alt="Farm Operations" class="rounded-2xl shadow-md w-full object-cover h-64">
+                
+                <div class="bg-green-100 p-8 rounded-2xl shadow-inner">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Our Community Impact</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-center">✓ Supplying locally produced, nutritious food</li>
+                        <li class="flex items-center">✓ Creating local employment opportunities</li>
+                        <li class="flex items-center">✓ Supporting local feed and supply businesses</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services & Products Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-12">Our Products & Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <!-- Product 1 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition overflow-hidden">
+                    <img src="https://via.placeholder.com/400x200?text=Fresh+Eggs" alt="Fresh Eggs" class="w-full h-48 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Fresh Commercial Eggs</h3>
+                        <p class="text-gray-600 text-sm">
+                            Our primary specialty. We maintain a healthy flock of point-of-laying birds to ensure a consistent, daily supply of fresh, carefully sorted, and securely packaged eggs.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition overflow-hidden">
+                    <img src="https://via.placeholder.com/400x200?text=Live+%26+Frozen+Chicken" alt="Live and Frozen Chicken" class="w-full h-48 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Live & Frozen Chicken</h3>
+                        <p class="text-gray-600 text-sm">
+                            High-quality, well-fed poultry available for households, food vendors, and retailers. Processed in sanitary conditions to guarantee safety.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition overflow-hidden">
+                    <img src="https://via.placeholder.com/400x200?text=Feeds+%26+Supplements" alt="Feeds and Supplements" class="w-full h-48 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Feeds & Supplements</h3>
+                        <p class="text-gray-600 text-sm">
+                            We supply premium chicken feeds and essential health supplements to support other farmers and maintain agricultural excellence in the region.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer Section -->
+    <section id="contact" class="py-16 bg-gray-900 text-white">
+        <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+            <!-- Contact Info -->
+            <div>
+                <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+                <p class="text-gray-400 mb-8 max-w-md">
+                    Whether you are a household looking for fresh daily eggs or a business seeking a reliable poultry supplier, Aishdot Poultry Farm is ready to serve you.
+                </p>
+                <div class="space-y-4 mb-8">
+                    <p class="flex items-center text-gray-300">
+                        <span class="mr-3 text-green-500">📍</span> 
+                        No. 40, Behind E3 Bakery, Off Kurikyo Road, Lafia, Nasarawa State
+                    </p>
+                    <p class="flex items-center text-gray-300">
+                        <span class="mr-3 text-green-500">📞</span> 
+                        08064892346 / 08144367665
+                    </p>
+                    <p class="flex items-center text-gray-300">
+                        <span class="mr-3 text-green-500">✉️</span> 
+                        raishat27@gmail.com
+                    </p>
+                </div>
+                <!-- Call/WhatsApp Buttons -->
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="tel:08064892346" class="bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-lg font-semibold transition text-center">
+                        📞 Call Now
+                    </a>
+                    <a href="https://wa.me/2348064892346" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition text-center">
+                        💬 WhatsApp Us
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Mailto Contact Block -->
+            <div class="bg-gray-800 p-8 rounded-xl text-center border border-gray-700">
+                <div class="text-5xl mb-4">📧</div>
+                <h3 class="text-2xl font-bold mb-4">Send Us an Email</h3>
+                <p class="text-gray-400 mb-8 text-sm">
+                    Have a specific order request or business inquiry? Click below to draft an email directly to our team. We aim to respond promptly.
+                </p>
+                <a href="mailto:raishat27@gmail.com?subject=Website%20Inquiry:%20Aishdot%20Poultry%20Farm" class="inline-block w-full bg-white text-gray-900 hover:bg-gray-200 font-bold py-3 px-6 rounded-lg transition duration-300">
+                    Email raishat27@gmail.com
+                </a>
+            </div>
+        </div>
+        
+        <div class="max-w-6xl mx-auto px-4 mt-16 pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Aishdot Poultry Farm (BN 9750129). All rights reserved.</p>
+        </div>
+    </section>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileLinks = menu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+      </html>
